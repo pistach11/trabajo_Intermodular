@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa para Alquilar</title>
+  <link rel="stylesheet" href="casita.css">
+</head>
+<body>
+
+  <div class="barra-superior">
+    <div class="barra-superior-izquierda">
+      <h1><a href="index.html">Hispania Renting</a></h1>
+    </div>
+    <div class="barra-superior-derecha">
+      <p>Idioma: ES</p>
+      <a href="#">Ayuda al Cliente</a>
+      <a href="#">Inicio de sesión</a>
+    </div>
+  </div>
+
+  <div class="contenedor">
+    <div class="izquierda">
+      <img src="casitas(robadas)/casa1_1_.png" alt="Casa 1">
+    </div>
+
+    <div class="derecha">
+      <h2>Propiedades de la Casa</h2>
+      <ul>
+        <li><strong>Ubicación:</strong> Calle Ficticia 123, Ciudad</li>
+        <li><strong>Precio:</strong> $1200/mes</li>
+        <li><strong>Habitaciones:</strong> 3</li>
+        <li><strong>Baños:</strong> 2</li>
+        <li><strong>Amenities:</strong> Piscina, Jardín, Estacionamiento</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="casas-similares">
+    <h2>Alquileres sugeridos</h2>
+    <div class="casas">
+      <div class="casa">
+        <img src="casitas(robadas)/casa2.png" alt="Casa Similar 1">
+        <div class="informacion-casa">
+          <a href="https://example.com/casa1">Casa Similar 1</a>
+          <p><strong>Precio:</strong> $900/mes</p>
+        </div>
+      </div>
+      <div class="casa">
+        <img src="casitas(robadas)/l.png" alt="Casa Similar 2">
+        <div class="informacion-casa">
+          <a href="https://example.com/casa2">Casa Similar 2</a>
+          <p><strong>Precio:</strong> $1100/mes</p>
+        </div>
+      </div>
+      <div class="casa">
+        <img src="casitas(robadas)/casa3.png" alt="Casa Similar 3">
+        <div class="informacion-casa">
+          <a href="https://example.com/casa3">Casa Similar 3</a>
+          <p><strong>Precio:</strong> $950/mes</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contacto">
+    <h2>Contáctanos para Alquilar</h2>
+    <p>Llámamos al número: <strong>(+123) 456-7890</strong></p>
+    <form action="contacto.php" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu email" required>
+      <textarea name="mensaje" placeholder="Escribe tu mensaje" required style="height: 150px;"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>

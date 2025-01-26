@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-block {
+    background-image: url(imagenes/portada.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo-descripcion {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.descripcion h1 {
+    margin: 0 0 0 10px; /* Ajusta el margen izquierdo para separar el texto del logo */
+    font-size: 36px;
+    color: #4688ce;
+}
+
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.top-right button {
+    padding: 20px 40px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.ofertas {
+    margin-top: 90px;
+    width: 300px;
+    height: 227px; /* Permite ajustar la altura según el contenido */
+    position: absolute;
+    top: 300px;
+    right: 10px;
+    background-color: rgba(61, 127, 201, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ofertas h2 {
+    color: #ccc;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+    margin-bottom: 10px;
+    text-align: center; /* Centra el título */
+}
+
+.propiedad {
+    text-align: center; /* Centra el contenido dentro del bloque */
+}
+
+.imagen-propiedad {
+    width: 100%; /* La imagen ocupa el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px; /* Opcional: redondea las esquinas */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+
+.recent-searches h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.recent-searches ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent-searches li {
+    margin-bottom: 5px;
+}
+
+.busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.busqueda h1 {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.busqueda form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.busqueda input,
+.busqueda button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.busqueda button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.propiedades-recientes {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.propiedades-recientes h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.propiedades {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.propiedad {
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.propiedad img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.propiedad .detalles h3 {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-info ul,
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li,
+.social-media ul li {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
